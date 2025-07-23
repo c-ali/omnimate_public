@@ -25,9 +25,8 @@ This is a **closed-source** project which is currently in active development.
 ## 🛠 Tech Stack
 
 - **Photoshop UXP Plugin** (TypeScript + HTML/CSS)
-- **MangaNinja AI Model** (inference through Python backend)
-- **Electron Bridge** for communication between frontend and backend
-- **Node.js + Python** server for model hosting and plugin communication
+- **multiple models on back- and frontend** (inference through Python backend with preprocessing on frontend to minimize latency)
+- **microservice friendly backend** for simple and fast distributed hosting to minimize latency
 
 
 ## 🚧 Roadmap:
